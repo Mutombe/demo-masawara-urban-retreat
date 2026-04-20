@@ -1,9 +1,25 @@
 import React from 'react';
-import * as Icons from '@phosphor-icons/react';
+import {
+  Leaf,
+  Waves,
+  FlowerLotus,
+  Sun,
+  ForkKnife,
+  Champagne,
+} from '@phosphor-icons/react';
+
+const IconMap = {
+  Leaf,
+  Waves,
+  FlowerLotus,
+  Sun,
+  ForkKnife,
+  Champagne,
+};
 
 export default function AmenityCard({ amenity }) {
   // Fallback icon if the named one doesn't exist
-  const Icon = Icons[amenity.icon] || Icons.Leaf;
+  const Icon = IconMap[amenity.icon] || Leaf;
 
   return (
     <article className="group relative overflow-hidden bg-ivory-50 border border-sage-100 transition-all duration-500 hover:border-sage-300">
