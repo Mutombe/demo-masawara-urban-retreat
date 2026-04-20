@@ -1,0 +1,167 @@
+@import "tailwindcss";
+
+@theme {
+  /* Sage green — quiet verdant */
+  --color-sage-50: #F3F6F1;
+  --color-sage-100: #E5ECE1;
+  --color-sage-200: #CBD8C4;
+  --color-sage-300: #A8BE9F;
+  --color-sage-400: #87A47D;
+  --color-sage-500: #6B8F71;
+  --color-sage-600: #587A5E;
+  --color-sage-700: #46624D;
+  --color-sage-800: #374F3E;
+  --color-sage-900: #2A3E31;
+
+  /* Ivory — warm white with a whisper of cream */
+  --color-ivory-50: #FDFBF5;
+  --color-ivory-100: #FAF6EE;
+  --color-ivory-200: #F4EDDE;
+  --color-ivory-300: #E8DEC7;
+  --color-ivory-400: #D6C7A8;
+
+  /* Warm charcoal — grounding */
+  --color-charcoal-50: #F5F4F1;
+  --color-charcoal-100: #E3E1DB;
+  --color-charcoal-200: #BEBAAF;
+  --color-charcoal-300: #8E897A;
+  --color-charcoal-400: #5A5549;
+  --color-charcoal-500: #3F3B31;
+  --color-charcoal-600: #33302A;
+  --color-charcoal-700: #2B2B25;
+  --color-charcoal-800: #1F1F1B;
+  --color-charcoal-900: #141411;
+
+  /* Copper accent — soft warmth */
+  --color-copper-300: #E6B88F;
+  --color-copper-400: #D09C6B;
+  --color-copper-500: #B87333;
+  --color-copper-600: #9A5E28;
+  --color-copper-700: #774620;
+
+  /* Typography */
+  --font-display: 'Cormorant Garamond', 'Times New Roman', serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --font-accent: 'Caveat', cursive;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: var(--color-ivory-100);
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  color: var(--color-charcoal-700);
+  background: var(--color-ivory-100);
+  overflow-x: hidden;
+  line-height: 1.6;
+}
+
+::selection {
+  background: var(--color-sage-500);
+  color: var(--color-ivory-50);
+}
+
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: var(--color-ivory-100); }
+::-webkit-scrollbar-thumb { background: var(--color-sage-200); }
+::-webkit-scrollbar-thumb:hover { background: var(--color-sage-400); }
+
+.font-display { font-family: var(--font-display); }
+.font-body { font-family: var(--font-body); }
+.font-accent { font-family: var(--font-accent); }
+
+.text-balance { text-wrap: balance; }
+.text-pretty { text-wrap: pretty; }
+
+/* Whisper grain for depth */
+.grain::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  opacity: 0.025;
+  mix-blend-mode: multiply;
+}
+
+.glass-ivory {
+  background: rgba(250, 246, 238, 0.78);
+  backdrop-filter: blur(20px) saturate(1.3);
+  -webkit-backdrop-filter: blur(20px) saturate(1.3);
+  border: 1px solid rgba(107, 143, 113, 0.08);
+}
+
+.leaf-divider {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: var(--color-sage-600);
+}
+.leaf-divider::before,
+.leaf-divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--color-sage-300), transparent);
+}
+
+.copper-underline {
+  position: relative;
+  display: inline-block;
+}
+.copper-underline::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -4px;
+  height: 1px;
+  background: var(--color-copper-500);
+  opacity: 0.7;
+}
+
+@keyframes drift {
+  0%, 100% { transform: translate(0, 0) rotate(0deg); }
+  50% { transform: translate(6px, -10px) rotate(3deg); }
+}
+@keyframes sway {
+  0%, 100% { transform: rotate(-2deg); }
+  50% { transform: rotate(2deg); }
+}
+@keyframes fade-in-up {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-drift { animation: drift 14s ease-in-out infinite; }
+.animate-sway { animation: sway 8s ease-in-out infinite; }
+
+:focus-visible {
+  outline: 2px solid var(--color-sage-500);
+  outline-offset: 3px;
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar { display: none; }
+  .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+  .aspect-letter { aspect-ratio: 8.5 / 11; }
+}
+
+@layer base {
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    line-height: 1.15;
+    color: var(--color-charcoal-700);
+  }
+}
