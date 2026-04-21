@@ -40,9 +40,9 @@ export const hero = {
   cta: { label: 'Reserve your stay', href: '/reservations' },
   secondary: { label: 'View suites', href: '/suites' },
   images: [
-    'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1800&q=80',
-    'https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=1800&q=80',
-    'https://images.unsplash.com/photo-1584132967334-10e028bd69f7?auto=format&fit=crop&w=1800&q=80',
+    'https://images.unsplash.com/photo-1582610116397-edb318620f90?auto=format&fit=crop&w=1800&q=80',
+    'https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1800&q=80',
+    'https://images.unsplash.com/photo-1560707303-4e980ce876ad?auto=format&fit=crop&w=1800&q=80',
   ],
 };
 
@@ -57,11 +57,11 @@ export const suites = [
     size: '48 m²',
     sleeps: 2,
     bed: 'King',
-    image: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=1600&q=80',
+    image: 'https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1600&q=80',
     gallery: [
-      'https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=1600&q=80',
-      'https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=1600&q=80',
-      'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1600&q=80',
+      'https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1600&q=80',
+      'https://images.unsplash.com/photo-1567016376408-0226e4d0c1ea?auto=format&fit=crop&w=1600&q=80',
+      'https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&w=1600&q=80',
     ],
     teaser:
       'Low linen beds, private verandah onto the walled garden, a soaking tub that catches the late afternoon light.',
@@ -78,10 +78,10 @@ export const suites = [
     size: '32 m²',
     sleeps: 2,
     bed: 'Queen',
-    image: 'https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=1600&q=80',
+    image: 'https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1600&q=80',
     gallery: [
-      'https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=1600&q=80',
-      'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1600&q=80',
+      'https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1600&q=80',
+      'https://images.unsplash.com/photo-1571508601891-ca5e7a713859?auto=format&fit=crop&w=1600&q=80',
       'https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1600&q=80',
     ],
     teaser: 'Our most-loved room. Tall sash windows onto the inner courtyard and the fig tree that pre-dates the house.',
@@ -98,11 +98,11 @@ export const suites = [
     size: '62 m²',
     sleeps: 2,
     bed: 'Super-king',
-    image: 'https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1600&q=80',
+    image: 'https://images.unsplash.com/photo-1591088398332-8a7791972843?auto=format&fit=crop&w=1600&q=80',
     gallery: [
-      'https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1600&q=80',
+      'https://images.unsplash.com/photo-1591088398332-8a7791972843?auto=format&fit=crop&w=1600&q=80',
       'https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&w=1600&q=80',
-      'https://images.unsplash.com/photo-1596178065887-1198b6148b2b?auto=format&fit=crop&w=1600&q=80',
+      'https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&w=1600&q=80',
     ],
     teaser: 'Top floor, corner position. A freestanding tub beneath the window, jacaranda canopy at eye level in October.',
     description:
@@ -121,8 +121,8 @@ export const suites = [
     image: 'https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&w=1600&q=80',
     gallery: [
       'https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&w=1600&q=80',
-      'https://images.unsplash.com/photo-1545158535-c3f7168c28b6?auto=format&fit=crop&w=1600&q=80',
-      'https://images.unsplash.com/photo-1519810755548-39cd217da494?auto=format&fit=crop&w=1600&q=80',
+      'https://images.unsplash.com/photo-1571508601891-ca5e7a713859?auto=format&fit=crop&w=1600&q=80',
+      'https://images.unsplash.com/photo-1560707303-4e980ce876ad?auto=format&fit=crop&w=1600&q=80',
     ],
     teaser: 'Stand-alone cottage with its own patch of lawn, a deep hammock, and a kitchenette for late-night tea.',
     description:
@@ -138,11 +138,11 @@ export const suites = [
     size: '24 m²',
     sleeps: 1,
     bed: 'Double',
-    image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1600&q=80',
+    image: 'https://images.unsplash.com/photo-1578898887932-dce23a595ad4?auto=format&fit=crop&w=1600&q=80',
     gallery: [
-      'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1600&q=80',
-      'https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=1600&q=80',
-      'https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=1600&q=80',
+      'https://images.unsplash.com/photo-1578898887932-dce23a595ad4?auto=format&fit=crop&w=1600&q=80',
+      'https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&w=1600&q=80',
+      'https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&w=1600&q=80',
     ],
     teaser: 'A considered room for the solo traveller. Writing desk, kettle for loose-leaf tea, a small bookshelf of local poetry.',
     description:
@@ -158,10 +158,10 @@ export const suites = [
     size: '56 m²',
     sleeps: 2,
     bed: 'King',
-    image: 'https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=1600&q=80',
+    image: 'https://images.unsplash.com/photo-1567016376408-0226e4d0c1ea?auto=format&fit=crop&w=1600&q=80',
     gallery: [
-      'https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=1600&q=80',
-      'https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1600&q=80',
+      'https://images.unsplash.com/photo-1567016376408-0226e4d0c1ea?auto=format&fit=crop&w=1600&q=80',
+      'https://images.unsplash.com/photo-1568495248636-6432b97bd949?auto=format&fit=crop&w=1600&q=80',
       'https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1600&q=80',
     ],
     teaser: 'Double-height ceilings, a private roof terrace, sunsets that belong on a postcard you never quite send.',
@@ -179,7 +179,7 @@ export const amenities = [
     icon: 'Leaf',
     summary:
       'Three-quarters of an acre of fig, frangipani and frangible old jacaranda. Breakfast is served here when the weather is kind — which, in Harare, is most mornings.',
-    image: 'https://images.unsplash.com/photo-1519449556851-5720b33024e7?auto=format&fit=crop&w=1600&q=80',
+    image: 'https://images.unsplash.com/photo-1560707303-4e980ce876ad?auto=format&fit=crop&w=1600&q=80',
   },
   {
     slug: 'outdoor-pool',
@@ -187,7 +187,7 @@ export const amenities = [
     icon: 'Waves',
     summary:
       'A slim, unheated pool set in stone — long enough for proper laps, shallow enough for a slow hour with a book. Surrounded by loungers and the scent of jasmine.',
-    image: 'https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=1600&q=80',
+    image: 'https://images.unsplash.com/photo-1582610116397-edb318620f90?auto=format&fit=crop&w=1600&q=80',
   },
   {
     slug: 'skin-spa',
@@ -195,7 +195,7 @@ export const amenities = [
     icon: 'FlowerLotus',
     summary:
       'Three-time Harare Spa of the Year. Facials, massage, sound-bathing, and the kind of slow conversation that makes you lose an hour without noticing.',
-    image: 'https://images.unsplash.com/photo-1596178065887-1198b6148b2b?auto=format&fit=crop&w=1600&q=80',
+    image: 'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=1600&q=80',
   },
   {
     slug: 'yoga-deck',
@@ -203,7 +203,7 @@ export const amenities = [
     icon: 'Sun',
     summary:
       'Open-air teak deck tucked behind the fig. Sunrise Vinyasa at 06:30, Candlelit Yin on Thursdays. Mats, bolsters and herbal tea provided.',
-    image: 'https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1600&q=80',
+    image: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1600&q=80',
   },
   {
     slug: 'patio-restaurant',
@@ -211,7 +211,7 @@ export const amenities = [
     icon: 'ForkKnife',
     summary:
       'Our fusion dining room, open to residents and the quiet few who know. Local, seasonal, never loud — the sort of menu you find by word of mouth.',
-    image: 'https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1600&q=80',
+    image: 'https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=1600&q=80',
   },
   {
     slug: 'xhale-events',
@@ -219,7 +219,7 @@ export const amenities = [
     icon: 'Champagne',
     summary:
       'An intimate private dining and events room for twelve to thirty. Rehearsal dinners, small weddings, the occasional very good birthday.',
-    image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80',
+    image: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1600&q=80',
   },
 ];
 
@@ -280,7 +280,7 @@ export const experiences = [
     duration: '45 min',
     price: 0,
     priceLabel: 'Complimentary',
-    image: 'https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1600&q=80',
+    image: 'https://images.unsplash.com/photo-1560707303-4e980ce876ad?auto=format&fit=crop&w=1600&q=80',
     description:
       'Our head gardener, Tawanda, walks you through the walled garden — the fig he inherited, the indigenous aloes, the jacaranda with its stubborn roots. Daily at 10:00.',
   },
@@ -290,7 +290,7 @@ export const experiences = [
     duration: '90 min',
     price: 22,
     priceLabel: '$22 per person',
-    image: 'https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=1600&q=80',
+    image: 'https://images.unsplash.com/photo-1587574293340-e0011c4e8ecf?auto=format&fit=crop&w=1600&q=80',
     description:
       'A long linen-dressed table beneath the fig. House-baked croissants, farm eggs, garden herbs, cold-pressed juice. The most photographed hour of the day — if you must.',
   },
@@ -300,7 +300,7 @@ export const experiences = [
     duration: '60 min',
     price: 35,
     priceLabel: '$35 per person',
-    image: 'https://images.unsplash.com/photo-1469371670807-013ccf25f16a?auto=format&fit=crop&w=1600&q=80',
+    image: 'https://images.unsplash.com/photo-1519810755548-39cd217da494?auto=format&fit=crop&w=1600&q=80',
     description:
       'Clear Harare nights are something else. Our terrace loft telescope, a local astronomer twice a month, a small carafe of something warm. Wednesdays & Saturdays.',
   },
@@ -310,7 +310,7 @@ export const experiences = [
     duration: '60 min',
     price: 18,
     priceLabel: '$18 per person',
-    image: 'https://images.unsplash.com/photo-1545158535-c3f7168c28b6?auto=format&fit=crop&w=1600&q=80',
+    image: 'https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=1600&q=80',
     description:
       'Five small pours from our list of local and South African estates, curated by our sommelier. The fig tree does its best work around 17:30.',
   },
@@ -320,7 +320,7 @@ export const experiences = [
     duration: '60 min',
     price: 40,
     priceLabel: '$40 per person',
-    image: 'https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?auto=format&fit=crop&w=1600&q=80',
+    image: 'https://images.unsplash.com/photo-1602002418082-a4443e081dd1?auto=format&fit=crop&w=1600&q=80',
     description:
       'Crystal bowls under the open sky, a mat, a bolster, a blanket. Guided breath, then silence. Sunday afternoons at 16:00.',
   },
@@ -330,7 +330,7 @@ export const experiences = [
     duration: '3 hrs',
     price: 95,
     priceLabel: '$95 per person (min. 2)',
-    image: 'https://images.unsplash.com/photo-1521295121783-8a321d551ad2?auto=format&fit=crop&w=1600&q=80',
+    image: 'https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=1600&q=80',
     description:
       'A table set for you alone, by the wall, under lanterns. A seven-course tasting menu from our chef. Bookings 48 hours ahead.',
   },
@@ -345,7 +345,7 @@ export const reviews = [
     title: 'Our quiet weekend habit.',
     body:
       'We\'ve stayed four times now and Masawara has become a ritual. The Courtyard Room is our favourite — there is a particular quality of silence in this house that is almost architectural.',
-    avatar: 'https://images.unsplash.com/photo-1529336953128-a85760f58cb5?auto=format&fit=crop&w=400&q=80',
+    avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=400&q=80',
     stay: 'Courtyard Room · Anniversary',
   },
   {
@@ -355,7 +355,7 @@ export const reviews = [
     title: 'The best meal I had in Africa.',
     body:
       'I came for three nights on business and stayed five. The patio restaurant is genuinely extraordinary — and Violet at reception made me feel like a regular by Tuesday.',
-    avatar: 'https://images.unsplash.com/photo-1518621736915-f3b1c41bfd00?auto=format&fit=crop&w=400&q=80',
+    avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=400&q=80',
     stay: 'Terrace Loft · Business',
   },
   {
@@ -365,7 +365,7 @@ export const reviews = [
     title: 'A honeymoon we still talk about.',
     body:
       'The Jacaranda Suite, breakfast on the terrace, sound bath on the Sunday. Staff that somehow anticipate you. We planned three nights; we stretched it to six.',
-    avatar: 'https://images.unsplash.com/photo-1519810755548-39cd217da494?auto=format&fit=crop&w=400&q=80',
+    avatar: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=400&q=80',
     stay: 'Jacaranda Honeymoon Suite',
   },
   {
@@ -375,7 +375,7 @@ export const reviews = [
     title: 'Proper yoga, proper food, proper garden.',
     body:
       'I travel a lot for work and I judge hotels by breakfast. Theirs is the best I\'ve had south of Lisbon. The yoga deck is a genuine sanctuary. I\'d return in a breath.',
-    avatar: 'https://images.unsplash.com/photo-1522444195799-478538b28823?auto=format&fit=crop&w=400&q=80',
+    avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=400&q=80',
     stay: 'Studio Retreat · Solo',
   },
   {
@@ -385,7 +385,7 @@ export const reviews = [
     title: 'A retreat that actually retreats.',
     body:
       'I booked a spa half-day and a night in the Garden Suite to clear my head after a hard month. I cried on the yoga deck, laughed at dinner, slept eleven hours. Thank you.',
-    avatar: 'https://images.unsplash.com/photo-1518621736915-f3b1c41bfd00?auto=format&fit=crop&w=400&q=80',
+    avatar: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=400&q=80',
     stay: 'Garden Suite · Solo retreat',
   },
 ];
@@ -399,33 +399,33 @@ export const aboutStory = {
     'What we added was hospitality. Eleven considered suites, a garden restaurant, a walled spa, a yoga deck tucked behind the old servant\'s quarter. Each piece small. Each piece meant.',
     'The name — Masawara — is a word our grandmothers used for a place you went to rest. That, still, is the whole idea.',
   ],
-  image: 'https://images.unsplash.com/photo-1587985064135-0366536eab42?auto=format&fit=crop&w=1600&q=80',
-  image2: 'https://images.unsplash.com/photo-1545158535-c3f7168c28b6?auto=format&fit=crop&w=1200&q=80',
+  image: 'https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1600&q=80',
+  image2: 'https://images.unsplash.com/photo-1560707303-4e980ce876ad?auto=format&fit=crop&w=1200&q=80',
 };
 
 export const team = [
   {
     name: 'Rumbidzai Munyoro',
     role: 'Founder & Host',
-    image: 'https://images.unsplash.com/photo-1522444195799-478538b28823?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=800&q=80',
     bio: 'Hotelier, gardener, lapsed architect. Bought the house on a whim in 2017 and has not regretted it for a single morning.',
   },
   {
     name: 'Chef Tendai Moyo',
     role: 'Head Chef',
-    image: 'https://images.unsplash.com/photo-1518621736915-f3b1c41bfd00?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80',
     bio: 'Trained in Cape Town and Lyon. Returned to Harare for the tomatoes. Changes the menu quietly, almost fortnightly.',
   },
   {
     name: 'Tawanda Chidiya',
     role: 'Head Gardener',
-    image: 'https://images.unsplash.com/photo-1529336953128-a85760f58cb5?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?auto=format&fit=crop&w=800&q=80',
     bio: 'Knows every plant by both its Latin and its Shona name. Will talk about jacarandas for hours if you let him.',
   },
   {
     name: 'Priya Naidoo',
     role: 'Spa Director',
-    image: 'https://images.unsplash.com/photo-1519810755548-39cd217da494?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=800&q=80',
     bio: 'Certified in five modalities, gifted at seven. Believes in long silences and the restorative power of a properly brewed rooibos.',
   },
 ];
